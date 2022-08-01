@@ -1,0 +1,6 @@
+unity code
+
+receivedstring = data_stream.ReadLine();
+string[] dats = receivedstring.Split(','); //split the data between ","
+int recv_angl_data = Mathf.RoundToInt(float,Parse(datas[0]));
+
